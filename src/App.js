@@ -1,12 +1,15 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./App.css";
-import OurMethodology from "./components/OurMethodology";
+import { Route, Routes } from "react-router-dom";
+import Home from "./js/Home";
 
 function App() {
   return (
     <>
-      <OurMethodology />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </>
   );
 }
