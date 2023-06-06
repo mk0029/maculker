@@ -18,15 +18,18 @@
   box-sizing: border-box;
   transition: all 300ms ease-in-out;
 }
+.cursor_block {
+  cursor: progress;
+}
 :root {
   --fs-xsm: 12px;
   --fs-sm: 14px;
-  --fs-md: 14px;
+  --fs-md: 16px;
   --fs-xl: 20px;
-  --fs-2x4l: 24px;
-  --fs-3x2l: 32px;
+  --fs-2x4l: 18px;
+  --fs-3x2l: 24px;
   --fs-4x8l: 32px;
-  --fs-5x6l: 35px;
+  --fs-5x6l: 32px;
   /*  */
   --fw-med: 500;
   /* clr */
@@ -154,11 +157,7 @@
 }
 
 .common_btn {
-  background: linear-gradient(
-      139.21deg,
-      var(--clr-green) -13.86%,
-      #1f8f45 112.5%
-    ),
+  background: linear-gradient(139.21deg, #27bba2 -13.86%, #1f8f45 112.5%),
     linear-gradient(139.21deg, #1f8f7c -13.86%, #1f8f45 112.5%), #1f8f7c;
   border-radius: 51px;
   padding: 15px 30px;
@@ -171,7 +170,7 @@
   color: var(--clr-White);
 }
 .common_btn:hover {
-  background: linear-gradient(200.21deg, var(--clr-green), #1f8f45);
+  background: linear-gradient(200.21deg, #27bba2, #1f8f45);
   background-size: 110%, 110%;
   background-position: center;
 }
@@ -179,15 +178,22 @@
 .square_btn {
   border-radius: 5px;
   background-color: transparent;
-  padding: 15px 30px;
-  border: unset !important;
+  padding: 11px 30px;
+  background: linear-gradient(139.21deg, #27bba2 -13.86%, #1f8f45 112.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #1f8f45;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  font-size: var(--fs-md);
+  background-size: 194%;
+  background-position: center;
 }
 .square_btn:hover {
-  background: linear-gradient(
-    139.21deg,
-    #1f8f45 -13.86%,
-    var(--clr-green) 112.5%
-  );
+  background: linear-gradient(139.21deg, #1f8f45 -13.86%, #27bba2 112.5%);
+  color: var(--clr-White) !important;
+  -webkit-text-fill-color: whitesmoke;
+  border: 1px solid transparent;
 }
 .peragraph_common {
   font-family: "Roboto";
@@ -205,12 +211,22 @@
   color: var(--clr-White);
   opacity: 0.9;
 }
-.Green_Layer_Commn {
-  width: 252.14px;
-  height: 252.14px;
-  background: var(--clr-green);
-  opacity: 0.4;
-  filter: blur(80px);
+.bg_box_Succes {
+  background: rgba(0, 0, 0, 0.312);
+  -webkit-backdrop-filter: blur(74px);
+  backdrop-filter: blur(40px);
+  border-radius: 17px;
+}
+/*  */
+
+@media (min-width: 576px) {
+  .Green_Layer_Commn {
+    width: 252.14px;
+    height: 252.14px;
+    background: var(--clr-green);
+    opacity: 0.4;
+    filter: blur(80px);
+  }
 }
 /* asd */
 .Image_Old_Metho img,
@@ -366,7 +382,14 @@
     bottom: 15%;
   }
 }
+/*  */
+.img_ScreenShot_Success {
+  width: calc(100% + 400px);
+}
 @media (min-width: 576px) {
+  .img_ScreenShot_Success {
+    width: calc(100% + 200px);
+  }
   @keyframes Posbox_1 {
     0% {
       bottom: 0;
@@ -397,19 +420,15 @@
     --fs-md: 16px;
     --fs-xl: 20px;
     --fs-2x4l: 24px;
-    --fs-3x2l: 32px;
-    --fs-4x8l: 48px;
-    --fs-5x6l: 56px;
-  }
-  .Green_box_behind_old {
-    right: 25%;
-  }
-  .Image_Old_Metho img,
-  .Homing_Method {
-    width: 75%;
+    --fs-3x2l: 26px;
+    --fs-4x8l: 38px;
+    --fs-5x6l: 42px;
   }
 }
 @media (min-width: 768px) {
+  .img_ScreenShot_Success {
+    width: calc(100% + 00px);
+  }
   .box_Patint_Pis1 {
     left: -11%;
     bottom: 0;
@@ -438,6 +457,9 @@
   }
 }
 @media (min-width: 992px) {
+  .img_ScreenShot_Success {
+    width: 75%;
+  }
   @keyframes Posbox_1 {
     0% {
       bottom: 0;
@@ -465,29 +487,17 @@
   :root {
     --fs-xsm: 12px;
     --fs-sm: 14px;
-    --fs-md: 14px;
+    --fs-md: 16px;
     --fs-xl: 20px;
     --fs-2x4l: 24px;
     --fs-3x2l: 32px;
-    --fs-4x8l: 38px;
-    --fs-5x6l: 56px;
-  }
-  .Green_box_behind_old {
-    right: 3%;
-  }
-  .Image_Old_Metho img,
-  .Homing_Method {
-    width: 100%;
+    --fs-4x8l: 48px;
+    --fs-5x6l: 54px;
   }
 }
 @media (min-width: 1200px) {
-  .CheckMArk {
-    width: 26px;
-    height: 26px;
-  }
-  .Text_arrow_Old_matho {
-    top: -100%;
-    right: 5%;
+  .img_ScreenShot_Success {
+    width: 68%;
   }
   :root {
     --fs-xsm: 12px;
@@ -499,12 +509,11 @@
     --fs-4x8l: 48px;
     --fs-5x6l: 56px;
   }
+  .Image_Old_Metho {
+    width: 417.35px;
+  }
 }
 @media (min-width: 1440px) {
-  .Text_arrow_Old_matho {
-    top: -100%;
-    right: 15%;
-  }
   :root {
     --fs-xsm: 12px;
     --fs-sm: 14px;

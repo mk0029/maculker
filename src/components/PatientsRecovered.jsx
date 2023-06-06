@@ -14,7 +14,7 @@ function PatientsRecovered() {
           <div className=" container">
             <div className="row justify-content-between align-items-center">
               <div className="col-xl-5 col-lg-6 h-100 ">
-                <div className=" position-relative">
+                <div className=" position-relative z_index1">
                   <div
                     style={{ maxWidth: "207px" }}
                     className="box_Patint_Pis1 position-absolute rounded-3 d-flex gap-xl-4 gap-3 p-2 ">
@@ -44,13 +44,13 @@ function PatientsRecovered() {
                 <div className="">
                   <div className=" position-relative d-inline-block">
                     <img
-                      className=" position-absolute d-none d-md-block Arrow_Pat"
+                      className=" position-absolute d-none d-md-block Arrow_Pat z_index0"
                       src={TextArrow}
                       alt=""
                     />{" "}
                     <h2
                       style={{ lineHeight: "130%" }}
-                      className=" heading-common mb-3 pb-1">
+                      className=" heading-common mb-3 pb-1 position-relative z_index1">
                       More than 50% patients recovered
                     </h2>
                   </div>
