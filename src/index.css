@@ -24,8 +24,8 @@
 :root {
   --fs-xsm: 12px;
   --fs-sm: 14px;
-  --fs-md: 16px;
-  --fs-xl: 20px;
+  --fs-md: 14px;
+  --fs-xl: 16px;
   --fs-2x4l: 18px;
   --fs-3x2l: 24px;
   --fs-4x8l: 32px;
@@ -168,6 +168,7 @@
   line-height: 150%;
   text-align: center;
   color: var(--clr-White);
+  border: none;
 }
 .common_btn:hover {
   background: linear-gradient(200.21deg, #27bba2, #1f8f45);

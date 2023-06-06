@@ -181,6 +181,43 @@ svg.fill-changer:hover {
 ::-webkit-scrollbar {
   display: none;
 }
+/* Eligible */
+
+.eligiblity_col_bg {
+  background: rgba(37, 174, 134, 0.08);
+  border: 1px solid transparent;
+  border-radius: 16px;
+}
+
+.border_onHover {
+  border: 1px solid transparent;
+  border-radius: 15px;
+}
+
+.border_onHover:hover {
+  border: 1px solid rgba(38, 178, 143, 0.46);
+}
+.arrow_vector_over_text {
+  top: -60px;
+  huxuhn/right: -3%;
+}
+/* Fee-Structure */
+.fee_vector_position {
+  top: 12%;
+  left: -13%;
+}
+#fee .arrow_vector_over_text_fees {
+  top: 0px !important;
+  right: 20%;
+}
+
+.fee_vector_position1 {
+  bottom: 20%;
+  right: -13%;
+  transform: rotatey(180deg);
+  z-index: 0;
+}
+
 /* Program */
 .program_bg_img {
   background-image: url(./assets/img/webp/program-bg-img.webp);
@@ -196,7 +233,158 @@ svg.fill-changer:hover {
 .twiter:hover rect {
   stroke: white;
 }
+/* review */
+#Review a:hover {
+  color: #27bba2ce;
+}
+/* faq */
+.shadow_green_faq {
+  background: #29dabc;
+  opacity: 0.4;
+  filter: blur(100px);
+  width: 409.46px;
+  height: 269.15px;
+  bottom: 10%;
+  left: 55%;
+  transform: translateX(-50%);
+}
 
+.faq_bg_color {
+  background: #25ae8614;
+}
+
+.Faq_btn {
+  padding: 15px 10px 10px 10px;
+  border-bottom: 1px solid #fafafa21;
+}
+
+.active {
+  background: linear-gradient(139.21deg, #27bba2 -13.86%, #1f8f45 112.5%);
+  border-radius: 10px;
+}
+
+s .Faq_umbrell {
+  top: 0%;
+  left: 0;
+  width: 90px;
+}
+
+.Faq_accordion {
+  --bs-accordion-bg: transparent !important;
+  --bs-accordion-border-color: transparent !important;
+  --bs-accordion-btn-padding-x: unset !important;
+  --bs-accordion-btn-padding-y: 0rem !important;
+  --bs-accordion-btn-color: transparent !important;
+  --bs-accordion-btn-bg: transparent !important;
+  --bs-accordion-btn-active-icon: url(./assets/img/svg/arrow-forward.svg) !important;
+  --bs-accordion-btn-icon-width: 1.25rem;
+  --bs-accordion-btn-icon-transform: rotate(-360deg) !important;
+  --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
+  --bs-accordion-btn-icon: url(./assets/img/svg/down-arrow.svg) !important;
+  --bs-accordion-btn-focus-border-color: #86b7fe;
+  --bs-accordion-btn-focus-box-shadow: none !important;
+  --bs-accordion-body-padding-x: 1.25rem;
+  --bs-accordion-body-padding-y: 0rem !important;
+  --bs-accordion-active-color: #0c63e4;
+  --bs-accordion-active-bg: none !important;
+  --bs-accordion-body-padding-y: 20px !important;
+  --bs-accordion-body-padding-x: unset !important;
+}
+
+.Accordion_items {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  padding: 4px;
+  background: transparent !important;
+  border-radius: 24.8267px;
+}
+
+#FAQ h2 {
+  padding-right: 4px;
+}
+
+.accordion-flush .accordion-item {
+  border-bottom: 1px solid #f9f9f939;
+}
+
+.img_Width_fix {
+  width: 65% !important;
+}
+
+/* footer */
+#Footer a:hover {
+  color: #00ffcc !important;
+}
+
+.search_bar {
+  background: rgba(48, 48, 48, 0.7);
+  border-radius: 8px;
+}
+
+#Footer input {
+  outline: none;
+  color: #fafafa;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fafafab7 !important;
+  opacity: 0.7;
+}
+
+#Footer ::placeholder {
+  outline: none;
+  color: #fafafa;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fafafab7 !important;
+}
+
+#Footer svg.fill-changer:hover {
+  transform: scale(1.2);
+}
+
+#Footer svg.fill-changer:hover path {
+  fill: #23a370 !important;
+}
+
+#Footer svg.fill-changer:hover rect {
+  fill: #ffffff;
+}
+
+/* About-her0 */
+.aboutHero_Plus {
+  top: 10%;
+  left: 8%;
+  width: 44px;
+  rotate: 60deg;
+}
+
+.aboutHero_eye {
+  top: 10%;
+  right: 10%;
+  width: 44px;
+  rotate: 60deg;
+}
+
+.aboutHero_Plus1 {
+  bottom: -10%;
+  right: 20%;
+  width: 36px;
+  rotate: 60deg;
+}
+
+.aboutHero_eye1 {
+  bottom: -20%;
+  left: 20%;
+  width: 36px;
+  rotate: 60deg;
+}
+.w_xsm_100 {
+  width: 100%;
+}
 @media (min-width: 576px) {
   .bg_hero_img {
     background-image: url(./assets/img/webp/ratina.webp);
@@ -264,6 +452,9 @@ svg.fill-changer:hover {
 
   .mt_costom {
     margin: 140px 0 0 0;
+  }
+  .w_sm_75 {
+    width: 75%;
   }
 }
 
@@ -354,6 +545,9 @@ svg.fill-changer:hover {
     width: 366.01px;
     height: 300.27px;
     transform: translateY(-50%);
+  }
+  .w_lg_100 {
+    width: 100%;
   }
 }
 
