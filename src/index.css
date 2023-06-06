@@ -153,14 +153,18 @@
     linear-gradient(139.21deg, #1f8f7c -13.86%, #1f8f45 112.5%), #1f8f7c;
   border-radius: 51px;
   padding: 15px 30px;
-  border: 1px solid transparent;
   background-size: 110%;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  font-size: var(--fs-md);
+  line-height: 150%;
+  text-align: center;
   color: var(--clr-White);
 }
 .common_btn:hover {
-  background: linear-gradient(80.21deg, #27bba2 -13.86%, #1f8f45 112.5%),
-    linear-gradient(139.21deg, #1f8f7c -13.86%, #1f8f45 112.5%), #1f8f7c;
-  border: 1px solid #1f8f7c;
+  background: linear-gradient(200.21deg, #27bba2, #1f8f45);
+  background-size: 110%, 110%;
+  background-position: center;
 }
 
 .square_btn {
@@ -170,7 +174,7 @@
   border: unset !important;
 }
 .square_btn:hover {
-  background: linear-gradient(139.21deg, #27bba2 -13.86%, #1f8f45 112.5%);
+  background: linear-gradient(139.21deg, #1f8f45 -13.86%, #27bba2 112.5%);
 }
 .peragraph_common {
   font-family: "Roboto";
