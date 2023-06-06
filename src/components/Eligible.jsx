@@ -22,7 +22,7 @@ function Eligible() {
                 <span className="position-relative">
                   Who
                   <img
-                    className="arrow_vector_over_text position-absolute me-5 mt-5 translate-middle-y z_index--1"
+                    className="arrow_vector_over_text position-absolute me-5 mt-5 translate-middle-y z_index--1 d-none d-md-flex"
                     src={Arrow}
                     alt="curve-arrow"
                   />

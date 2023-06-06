@@ -20,7 +20,7 @@ function Fees() {
             <h2 className="z-index2 ff_jakarta fw_med fs_4x8l text-white opacity_09 position-relative text-center text-lg-start">
               Fee Structure
               <img
-                className="arrow_vector_over_text start-50 translate-middle-x ms-5 ms-md-0 position-absolute d-none d-sm-flex z_index--1"
+                className="arrow_vector_over_text_fees translate-middle-x ms-5 ms-md-0 position-absolute d-none d-sm-flex z_index--1"
                 src={Arrow}
                 alt="curve-arrow"
               />

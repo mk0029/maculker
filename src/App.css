@@ -199,16 +199,16 @@ svg.fill-changer:hover {
 }
 .arrow_vector_over_text {
   top: -60px;
-  huxuhn/right: -3%;
+  right: -3%;
 }
 /* Fee-Structure */
 .fee_vector_position {
   top: 12%;
   left: -13%;
 }
-#fee .arrow_vector_over_text_fees {
-  top: 0px !important;
-  right: 20%;
+.arrow_vector_over_text_fees {
+  top: -60px;
+  left: 50%;
 }
 
 .fee_vector_position1 {
@@ -493,6 +493,10 @@ s .Faq_umbrell {
   .mt_costom {
     margin: 120px 0 0 0;
   }
+  .arrow_vector_over_text_fees {
+    top: -60px;
+    left: 60%;
+  }
 }
 
 @media (min-width: 991.99px) {
@@ -549,6 +553,10 @@ s .Faq_umbrell {
   .w_lg_100 {
     width: 100%;
   }
+  .arrow_vector_over_text_fees {
+    top: -60px;
+    left: 50%;
+  }
 }
 
 @media (min-width: 1199.99px) {
@@ -594,6 +602,10 @@ s .Faq_umbrell {
     width: 366.01px;
     height: 300.27px;
     transform: translateY(-50%);
+  }
+  .arrow_vector_over_text_fees {
+    top: -60px;
+    left: 45%;
   }
 }
 
