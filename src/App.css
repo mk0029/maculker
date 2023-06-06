@@ -5,36 +5,17 @@
 Header .svg.logo_size:hover path {
   fill: #23a370 !important;
 }
-
-.nav_btn {
-  background: #ec6a15;
-  border-radius: 5px;
-  padding: 13px 19px 13px 22px;
-  border: 1px solid transparent;
-}
-
-.nav_btn:hover {
-  background: transparent;
-  opacity: 1;
-  border-radius: 5px;
-  padding: 13px 19px 13px 22px;
-  border: 1px solid #ec6a15;
-}
-
 .opacity_1:hover {
   opacity: 1;
 }
-
 .cursor_pointer {
   cursor: pointer;
 }
-
 .threeline {
   width: 30px;
   z-index: 12415;
   position: inherit;
 }
-
 .threelinechild {
   width: 100%;
   height: 2px;
@@ -45,7 +26,6 @@ Header .svg.logo_size:hover path {
   display: flex;
   flex-direction: column;
 }
-
 .falseline1 {
   width: 100%;
   height: 2px;
@@ -54,7 +34,6 @@ Header .svg.logo_size:hover path {
   border-radius: 50px;
   transform: rotate(45deg) translate(5%, 15%);
 }
-
 .falseline3 {
   width: 100%;
   height: 2px;
@@ -63,7 +42,6 @@ Header .svg.logo_size:hover path {
   border-radius: 50px;
   transform: rotate(-45deg) translate(0);
 }
-
 .shownav {
   position: fixed;
   width: 140%;
@@ -75,7 +53,6 @@ Header .svg.logo_size:hover path {
   overflow: scroll;
   transition: all 0.4s ease-in-out;
 }
-
 .hidenav {
   position: absolute;
   width: 100vw;
@@ -86,11 +63,9 @@ Header .svg.logo_size:hover path {
   transition: all 0.4s ease-in-out;
   z-index: 999 !important;
 }
-
 .menu_icon_size {
   width: 30px;
 }
-
 .nav_tab_onhover::after {
   content: "";
   position: absolute;
@@ -110,4 +85,135 @@ Header .svg.logo_size:hover path {
 .nav_tab_on:hover {
   color: #27bba2 !important;
   opacity: 1;
+}
+
+/* Hero */
+.bg_hero_img {
+  background-image: url(./assets/img/webp/ratina.webp);
+  background-size: 400px 400px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.Hero_transprant_card_top {
+  background: rgba(39, 187, 162, 0.05);
+  backdrop-filter: blur(8px);
+  padding: 10px;
+  border-radius: 10px;
+  width: 130.77px;
+  height: 82px;
+}
+
+.Hero_transprant_card_bottom {
+  background: rgba(39, 187, 162, 0.05);
+  backdrop-filter: blur(8px);
+  padding: 10px;
+  border-radius: 10px;
+  width: 130.77px;
+  height: 82px;
+}
+
+.plus_vector_position {
+  top: 55%;
+  left: 19%;
+}
+
+.plus_vector_position2 {
+  top: 25%;
+  right: 16%;
+}
+
+.plus_vector_position3 {
+  bottom: 25%;
+  left: 5%;
+  width: 43px;
+}
+
+.plus_vector_position3::after {
+  content: "SCROLL";
+  width: 104px;
+  height: 17px;
+  color: rgba(255, 255, 255, 0.709);
+}
+
+.eyes_vector_position {
+  top: 33%;
+  left: 14%;
+}
+
+.eyes_vector_position2 {
+  bottom: 20%;
+  right: 16%;
+  width: 43px;
+  rotate: 20deg;
+}
+
+@media (min-width: 576px) {
+  .bg_hero_img {
+    background-image: url(./assets/img/webp/ratina.webp);
+    background-size: 600px 500px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+
+  .Hero_transprant_card_top {
+    position: absolute;
+    background: rgba(39, 187, 162, 0.05);
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    border-radius: 10px;
+    top: 28%;
+    right: 0%;
+    width: 147.77px;
+    height: 82px;
+  }
+
+  .Hero_transprant_card_bottom {
+    position: absolute;
+    background: rgba(39, 187, 162, 0.05);
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    border-radius: 10px;
+    bottom: 15%;
+    left: 10%;
+    width: 147.77px;
+    height: 82px;
+  }
+}
+
+@media (min-width: 767.99px) {
+  #Header .logo_size {
+    width: 106px;
+  }
+
+  .bg_hero_img {
+    background-image: url(./assets/img/webp/ratina.webp);
+    background-size: 700px 600px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 991.99px) {
+  .bg_hero_img {
+    background-image: url(./assets/img/webp/ratina.webp);
+    background-size: 950px 750px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1199.99px) {
+  .min_vh_100 {
+    min-height: unset;
+  }
+  .bg_hero_img {
+    background-image: url(./assets/img/webp/ratina.webp);
+    background-size: 1100px 850px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1439.99px) {
 }
