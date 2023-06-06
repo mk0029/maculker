@@ -266,10 +266,7 @@
   left: 2%;
   animation: starXL 6s linear 0s infinite alternate;
 }
-.Arrow_Pat {
-  top: -100%;
-  left: 0%;
-}
+
 @keyframes starXL {
   0% {
     left: 2%;
@@ -326,13 +323,66 @@
     transform: rotate(20deg);
   }
 }
+.Arrow_Pat {
+  top: -52%;
+  left: -24%;
+}
 .eyeSM_optim {
   bottom: 25%;
   width: 30px;
   left: 8%;
   animation: eyeComm 3s linear 0s infinite alternate;
 }
+.box_Patint_Pis1 {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  opacity: 1;
+  left: 0%;
+  bottom: 0;
+  animation: Posbox_1 4s linear 0s infinite alternate-reverse;
+}
+.box_Patint_Pis2 {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  right: 2%;
+  bottom: -6%;
+  animation: Posbox_2 4s linear 0s infinite alternate-reverse;
+}
+@keyframes Posbox_1 {
+  0% {
+    bottom: 70%;
+  }
+  100% {
+    bottom: 80%;
+  }
+}
+@keyframes Posbox_2 {
+  0% {
+    bottom: 4%;
+  }
+  100% {
+    bottom: 15%;
+  }
+}
 @media (min-width: 576px) {
+  @keyframes Posbox_1 {
+    0% {
+      bottom: 0;
+    }
+    100% {
+      bottom: 20%;
+    }
+  }
+  @keyframes Posbox_2 {
+    0% {
+      bottom: 2%;
+    }
+    100% {
+      bottom: 25%;
+    }
+  }
   .CheckMArk {
     width: 23px;
     height: 23px;
@@ -360,6 +410,14 @@
   }
 }
 @media (min-width: 768px) {
+  .box_Patint_Pis1 {
+    left: -11%;
+    bottom: 0;
+  }
+  .box_Patint_Pis2 {
+    right: -3%;
+    bottom: -6%;
+  }
   .border_rounded_Custom {
     border-radius: 192px;
   }
@@ -380,6 +438,22 @@
   }
 }
 @media (min-width: 992px) {
+  @keyframes Posbox_1 {
+    0% {
+      bottom: 0;
+    }
+    100% {
+      bottom: 40%;
+    }
+  }
+  @keyframes Posbox_2 {
+    0% {
+      bottom: -6%;
+    }
+    100% {
+      bottom: 30%;
+    }
+  }
   .CheckMArk {
     width: 24px;
     height: 24px;
