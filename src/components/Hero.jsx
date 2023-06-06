@@ -9,7 +9,7 @@ function Hero() {
   return (
     <section
       id="#Hero"
-      className="min_vh_100 d-flex flex-column bg_hero_img position-relative pb-5"
+      className="min_vh_100 d-flex flex-column bg_hero_img position-relative pb-md-5 mb-4"
     >
       <img
         className="position-absolute Anim_RotatePlusIcon plus_vector_position"
@@ -38,14 +38,14 @@ function Hero() {
       />
 
       <Header acTive="nav_tab_onhover" />
-      <div className="container flex-grow-1 justify-content-center align-items-center d-flex">
+      <div className="container flex-grow-1 justify-content-center align-items-center d-flex pb-md-5">
         <div className="row">
           <div
             data-aos="fade-up"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
             data-aos-delay="400"
-            className="col-md-8 mx-auto"
+            className="col-lg-8 mx-auto"
           >
             <h1 className="ff_jakarta fw-semibold fs_5x6l text-white text-center mt-5 pt-lg-5 z_index1 mb-0">
               Seeing life{" "}
@@ -60,8 +60,8 @@ function Hero() {
               , with <span className="d-lg-block">Macular Program</span>
             </h1>
             <div className="position-relative">
-              <img className="w-100" src={eyes} alt="header-img" />
-              <div className="d-flex justify-content-center gap-4">
+              <img className="w-100 mt-5" src={eyes} alt="header-img" />
+              <div className="d-flex justify-content-center gap-4 py-4">
                 <p className="ff_jakarta fw_med fs_md text_white Hero_transprant_card_bottom mb-0">
                   No Injection Required
                 </p>

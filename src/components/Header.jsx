@@ -78,7 +78,7 @@ function Header(props) {
               </li>
             </ul>
             <ul className="d-flex gap-1 mb-0 p-0 mb-0 d-none d-lg-flex">
-              <button className="ff_jakarta fw-semibold text-white fs_md common_btn">
+              <button className="ff_jakarta border-0 fw-semibold text-white fs_md common_btn">
                 Contact Us
               </button>
             </ul>
@@ -142,7 +142,7 @@ function Header(props) {
               </li>
             </ul>
             <ul className="d-flex gap-1 mb-0 p-0 mb-0 justify-content-center align-items-center mt-4">
-              <button className="ff_jakarta fw-semibold text-white fs_md common_btn">
+              <button className="ff_jakarta fw-semibold border-0 text-white fs_md common_btn">
                 Contact Us
               </button>
             </ul>

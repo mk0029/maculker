@@ -147,6 +147,37 @@ Header .svg.logo_size:hover path {
   width: 43px;
   rotate: 20deg;
 }
+svg.fill-changer:hover path {
+  fill: #ffffff !important;
+}
+
+svg.fill-changer:hover {
+  fill: #27bba2;
+}
+
+.first_slide {
+  width: 75% !important;
+  height: 300px;
+  position: unset;
+}
+
+.middle_slide {
+  height: 300px;
+  width: 75% !important;
+  display: none;
+  position: unset;
+}
+
+.last_slide {
+  height: 300px;
+  width: 75% !important;
+  position: unset;
+  display: none;
+}
+
+.min_vh__100 {
+  min-height: 100vh;
+}
 
 @media (min-width: 576px) {
   .bg_hero_img {
@@ -162,8 +193,8 @@ Header .svg.logo_size:hover path {
     backdrop-filter: blur(8px);
     padding: 20px;
     border-radius: 10px;
-    top: 28%;
-    right: 0%;
+    top: 20%;
+    right: -2%;
     width: 147.77px;
     height: 82px;
   }
@@ -174,10 +205,47 @@ Header .svg.logo_size:hover path {
     backdrop-filter: blur(8px);
     padding: 20px;
     border-radius: 10px;
-    bottom: 15%;
-    left: 10%;
+    bottom: 10%;
+    left: 0%;
     width: 147.77px;
     height: 82px;
+  }
+  .transform_middlex {
+    transform: translateX(16%);
+  }
+
+  .first_slide {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 0px;
+    width: 280.62px !important;
+    height: 250.55px;
+    transform: translateY(-50%);
+  }
+
+  .middle_slide {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 30px;
+    width: 280.14px !important;
+    height: 240.41px;
+    transform: translateY(-50%);
+  }
+
+  .last_slide {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50px;
+    width: 280.01px !important;
+    height: 230.27px;
+    transform: translateY(-50%);
+  }
+
+  .mt_costom {
+    margin: 110px 0 0 0;
   }
 }
 
@@ -192,6 +260,18 @@ Header .svg.logo_size:hover path {
     background-position: bottom;
     background-repeat: no-repeat;
   }
+  .Hero_transprant_card_top {
+    top: 28%;
+    right: 0%;
+  }
+  .Hero_transprant_card_bottom {
+    bottom: 15%;
+    left: 0%;
+  }
+
+  .transform_middlex {
+    transform: translateX(25%);
+  }
 }
 
 @media (min-width: 991.99px) {
@@ -200,6 +280,50 @@ Header .svg.logo_size:hover path {
     background-size: 950px 750px;
     background-position: bottom;
     background-repeat: no-repeat;
+  }
+  .Hero_transprant_card_top {
+    top: 28%;
+    right: -4%;
+  }
+  .Hero_transprant_card_bottom {
+    bottom: 13%;
+    left: 0%;
+  }
+  .min_vh__100 {
+    all: unset;
+  }
+  .transform_middlex {
+    all: unset;
+  }
+
+  .h__100 {
+    all: unset !important;
+  }
+  .first_slide {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 349.62px;
+    height: 377.55px;
+    transform: translateY(-50%);
+  }
+
+  .middle_slide {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 317.14px !important;
+    height: 342.41px;
+    transform: translateY(-50%);
+  }
+
+  .last_slide {
+    position: absolute;
+    top: 80%;
+    left: 60px;
+    width: 366.01px;
+    height: 288.27px;
+    transform: translateY(-50%);
   }
 }
 
@@ -213,7 +337,24 @@ Header .svg.logo_size:hover path {
     background-position: bottom;
     background-repeat: no-repeat;
   }
+  .Hero_transprant_card_top {
+    top: 33%;
+    right: 0%;
+  }
+  .Hero_transprant_card_bottom {
+    bottom: 16%;
+    left: 5%;
+  }
 }
 
 @media (min-width: 1439.99px) {
+  .Hero_transprant_card_bottom {
+    bottom: 18%;
+    left: 5%;
+  }
+}
+@media (min-width: 1600px) {
+  .min_vh_100 {
+    min-height: unset;
+  }
 }
