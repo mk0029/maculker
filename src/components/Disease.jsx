@@ -37,7 +37,7 @@ function Disease() {
                 background: "rgba(0, 0, 0, 0.14)",
                 borderRadius: "20px 20px 0 0 ",
               }}
-              className="pt-4"
+              className="pt-4 pb-lg-4"
             >
               <h2 className="ff_jakarta fw_med fs_4x8l text-white opacity_09 text-center mb-0 pt-md-3 px-3">
                 Symptoms of the disease
@@ -47,8 +47,8 @@ function Disease() {
                 a range of problems, including:
               </p>
             </div>
-            <div className="row align-items-center justify-content-center py-lg-5 pt-4 ">
-              <div className="col-xxl-7 col-lg-6 h-100 mt-lg-5 ">
+            <div className="row align-items-center justify-content-center py-lg-5 pt-lg-4 ">
+              <div className="col-xxl-7 col-lg-6 h-100 mt-5 ">
                 <div className="px-4 py-lg-5 z_index1 position-relative d-flex flex-column align-items-center justify-content-center align-items-lg-start">
                   <h2 className="ff_jakarta fw_med fs_3x2l text-white px-md-3 text-center text-lg-start mb-0">
                     Blurred or distorted central vision
@@ -113,7 +113,7 @@ function Disease() {
                   </span>
                 </div>
               </div>
-              <div className=" col-10 col-xxl-5 col-lg-6 mt_costom  pt-lg-0 mt-lg-0">
+              <div className="col-10 col-xxl-5 col-lg-6 mt_costom h-100  pt-lg-0 mt-lg-0">
                 <div
                   onClick={() => {
                     Next();
@@ -121,17 +121,17 @@ function Disease() {
                   className="w-100 my-sm-3 h-100 pb-sm-0 py-lg-2 z_index1 position-relative d-flex justify-content-center justify-content-lg-start transform_middlex"
                 >
                   <img
-                    className="first_slide z_index4 py-4"
+                    className="first_slide z_index4 py-lg-4 mt-4 mt-lg-0 pb-4 pb-sm-0 pt-3 pt-sm-0"
                     src={images[Index]}
                     alt="slider"
                   />
                   <img
-                    className="middle_slide z_index3 py-4"
+                    className="middle_slide z_index3 py-lg-4 mt-4 mt-lg-0 pb-4 pb-sm-0 pt-3 pt-sm-0"
                     src={images[Index + 1]}
                     alt="slider"
                   />
                   <img
-                    className="last_slide z_index2   py-4"
+                    className="last_slide z_index2   py-lg-4 mt-4 mt-lg-0 pb-4 pb-sm-0 pt-3 pt-sm-0"
                     src={images[Index + 2]}
                     alt="slider"
                   />

@@ -23,10 +23,10 @@
   --fs-sm: 14px;
   --fs-md: 16px;
   --fs-xl: 20px;
-  --fs-2x4l: 24px;
-  --fs-3x2l: 32px;
-  --fs-4x8l: 48px;
-  --fs-5x6l: 56px;
+  --fs-2x4l: 18px;
+  --fs-3x2l: 24px;
+  --fs-4x8l: 32px;
+  --fs-5x6l: 32px;
   /*  */
   --fw-med: 500;
   /* clr */
@@ -193,17 +193,67 @@
   opacity: 0.9;
 }
 @media (min-width: 576px) {
+  :root {
+    --fs-xsm: 12px;
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-xl: 20px;
+    --fs-2x4l: 24px;
+    --fs-3x2l: 26px;
+    --fs-4x8l: 38px;
+    --fs-5x6l: 42px;
+  }
 }
 @media (min-width: 768px) {
+  :root {
+    --fs-xsm: 12px;
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-xl: 20px;
+    --fs-2x4l: 24px;
+    --fs-3x2l: 32px;
+    --fs-4x8l: 48px;
+    --fs-5x6l: 56px;
+  }
 }
 @media (min-width: 992px) {
+  :root {
+    --fs-xsm: 12px;
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-xl: 20px;
+    --fs-2x4l: 24px;
+    --fs-3x2l: 32px;
+    --fs-4x8l: 48px;
+    --fs-5x6l: 54px;
+  }
 }
 @media (min-width: 1200px) {
+  :root {
+    --fs-xsm: 12px;
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-xl: 20px;
+    --fs-2x4l: 24px;
+    --fs-3x2l: 32px;
+    --fs-4x8l: 48px;
+    --fs-5x6l: 56px;
+  }
   .Image_Old_Metho {
     width: 417.35px;
   }
 }
 @media (min-width: 1440px) {
+  :root {
+    --fs-xsm: 12px;
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-xl: 20px;
+    --fs-2x4l: 24px;
+    --fs-3x2l: 32px;
+    --fs-4x8l: 48px;
+    --fs-5x6l: 56px;
+  }
   .container {
     max-width: 1140px;
   }

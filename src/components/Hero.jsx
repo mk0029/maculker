@@ -47,17 +47,18 @@ function Hero() {
             data-aos-delay="400"
             className="col-lg-8 mx-auto"
           >
-            <h1 className="ff_jakarta fw-semibold fs_5x6l text-white text-center mt-5 pt-lg-5 z_index1 mb-0">
-              Seeing life{" "}
+            <h1 className="ff_jakarta fw-semibold fs_5x6l text-white text-center mt-5 pt-lg-5 z_index3 mb-0 position-relative">
+              Seeing life &nbsp;
               <span className=" position-relative z_index2 d-inline-block">
                 <img
                   className="curve_over_text position-absolute d-none d-md-inline"
                   src={curve}
-                  alt=""
-                />{" "}
-                clearly
+                  alt="img"
+                />
+                clearly,
               </span>
-              , with <span className="d-lg-block">Macular Program</span>
+              &nbsp; with
+              <span className="d-lg-block">Macular Program</span>
             </h1>
             <div className="position-relative">
               <img className="w-100 mt-5" src={eyes} alt="header-img" />

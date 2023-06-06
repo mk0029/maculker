@@ -156,27 +156,45 @@ svg.fill-changer:hover {
 }
 
 .first_slide {
-  width: 75% !important;
+  width: 100% !important;
   height: 300px;
   position: unset;
 }
 
 .middle_slide {
   height: 300px;
-  width: 75% !important;
+  width: 100% !important;
   display: none;
   position: unset;
 }
 
 .last_slide {
   height: 300px;
-  width: 75% !important;
+  width: 100% !important;
   position: unset;
   display: none;
 }
 
 .min_vh__100 {
   min-height: 100vh;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+/* Program */
+.program_bg_img {
+  background-image: url(./assets/img/webp/program-bg-img.webp);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.twiter:hover path {
+  fill: white !important;
+}
+
+.twiter:hover rect {
+  stroke: white;
 }
 
 @media (min-width: 576px) {
@@ -245,7 +263,7 @@ svg.fill-changer:hover {
   }
 
   .mt_costom {
-    margin: 110px 0 0 0;
+    margin: 140px 0 0 0;
   }
 }
 
@@ -271,6 +289,18 @@ svg.fill-changer:hover {
 
   .transform_middlex {
     transform: translateX(25%);
+  }
+  .curve_over_text {
+    top: 5%;
+    left: -6%;
+    width: 110%;
+    height: 112%;
+    z-index: -1 !important;
+    object-fit: contain;
+    z-index: -1;
+  }
+  .mt_costom {
+    margin: 120px 0 0 0;
   }
 }
 
@@ -303,7 +333,7 @@ svg.fill-changer:hover {
     position: absolute;
     top: 50%;
     left: 0px;
-    width: 349.62px;
+    width: 349.62px !important;
     height: 377.55px;
     transform: translateY(-50%);
   }
@@ -311,18 +341,18 @@ svg.fill-changer:hover {
   .middle_slide {
     position: absolute;
     top: 50%;
-    left: 0px;
+    left: 65px;
     width: 317.14px !important;
-    height: 342.41px;
+    height: 340.41px;
     transform: translateY(-50%);
   }
 
   .last_slide {
     position: absolute;
     top: 80%;
-    left: 60px;
+    left: 130px;
     width: 366.01px;
-    height: 288.27px;
+    height: 300.27px;
     transform: translateY(-50%);
   }
 }
@@ -344,6 +374,32 @@ svg.fill-changer:hover {
   .Hero_transprant_card_bottom {
     bottom: 16%;
     left: 5%;
+  }
+  .first_slide {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    width: 349.62px !important;
+    height: 377.55px;
+    transform: translateY(-50%);
+  }
+
+  .middle_slide {
+    position: absolute;
+    top: 50%;
+    left: 110px;
+    width: 317.14px !important;
+    height: 340.41px;
+    transform: translateY(-50%);
+  }
+
+  .last_slide {
+    position: absolute;
+    top: 80%;
+    left: 180px;
+    width: 366.01px;
+    height: 300.27px;
+    transform: translateY(-50%);
   }
 }
 
