@@ -28,7 +28,9 @@ function OurMethodology() {
                   </p>
                   <span>
                     {" "}
-                    <a className=" common_btn d-inline-block">Learn more</a>
+                    <a href="#" className=" common_btn d-inline-block">
+                      Learn more
+                    </a>
                   </span>
                 </div>
               </div>
